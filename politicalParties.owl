@@ -1,0 +1,476 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#"
+     xml:base="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:untitled-ontology-55="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#hasAlliance -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#hasAlliance">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ReflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#hasCoalition -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#hasCoalition">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ReflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#hasIdeologicalCharacteristics -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#hasIdeologicalCharacteristics"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#hasIdeologicalCharacteristics -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#hasIdeologicalCharacteristics"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#AC -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#AC">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#C2"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#IdeologicalCharacteristics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#C1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#C1">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#EG"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#C22"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#C10 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#C10">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#C3"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#C4"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#C11 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#C11">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#EQ"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#C5"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#C12 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#C12">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#SC"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#C5"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#C13 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#C13">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#C1"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#C12"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#C14 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#C14">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#C11"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#C4"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#C15 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#C15">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#CW"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#C13"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#C16 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#C16">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#C13"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#C6"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#C7"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#C8"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#C17 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#C17">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#C10"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#C6"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#C9"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#C18 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#C18">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#C14"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#C7"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#C9"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#C19 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#C19">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#PL"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#C10"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#C14"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#C8"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#C2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#C2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#C22"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#C20 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#C20">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#LW"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#C11"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#C12"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#C21 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#C21">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#C15"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#C16"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#C17"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#C18"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#C19"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#C20"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#C22 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#C22">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#IdeologicalCharacteristics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#C3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#C3">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#RW"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#C22"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#C4 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#C4">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#ISL"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#C22"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#C5 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#C5">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#PS"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#C22"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#C6 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#C6">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#C1"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#C2"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#C3"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#C7 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#C7">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#C2"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#C5"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#C8 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#C8">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#C3"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#C5"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#C9 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#C9">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#C2"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#C4"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#CW -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#CW">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#IdeologicalCharacteristics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#EG -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#EG">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#IdeologicalCharacteristics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#EQ -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#EQ">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#IdeologicalCharacteristics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#ISL -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#ISL">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#IdeologicalCharacteristics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#IdeologicalCharacteristics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#IdeologicalCharacteristics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#PoliticalParties"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#LW -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#LW">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#IdeologicalCharacteristics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#PL -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#PL">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#IdeologicalCharacteristics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#PS -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#PS">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#IdeologicalCharacteristics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#PoliticalParties -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#PoliticalParties">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#hasIdeologicalCharacteristics"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#C22"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#hasIdeologicalCharacteristics"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#IdeologicalCharacteristics"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#RW -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#RW">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#IdeologicalCharacteristics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#SC -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#SC">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#IdeologicalCharacteristics"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#Demokrat -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#Demokrat"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#Gerindra -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#Gerindra">
+        <hasAlliance rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#Demokrat"/>
+        <hasAlliance rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#PAN"/>
+        <hasAlliance rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#PKS"/>
+        <hasCoalition rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#PAN"/>
+        <hasCoalition rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#PKS"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#Golkar -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#Golkar"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#Nasdem -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#Nasdem"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#PAN -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#PAN"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#PDIP -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#PDIP">
+        <hasAlliance rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#Golkar"/>
+        <hasAlliance rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#Nasdem"/>
+        <hasAlliance rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#PKB"/>
+        <hasAlliance rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#PPP"/>
+        <hasCoalition rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#Golkar"/>
+        <hasCoalition rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#Nasdem"/>
+        <hasCoalition rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#PKB"/>
+        <hasCoalition rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#PPP"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#PKB -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#PKB"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#PKS -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#PKS"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#PPP -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2019/5/untitled-ontology-55#PPP"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
