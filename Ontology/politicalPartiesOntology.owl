@@ -1,0 +1,2997 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/darfa/ontologies/2019/8/politicalPartiesOntology"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/darfa/ontologies/2019/8/politicalPartiesOntology">
+    <Prefix name="" IRI="http://www.semanticweb.org/darfa/ontologies/2019/8/untitled-ontology-56"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#C2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PoliticalParties"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#C19"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasIdeologicalCharacteristics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IdeologicalCharacteristics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CW"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#C6"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EG"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AC"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#C11"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#C15"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Concepts"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Demokrat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PDIP"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SC"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#C3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#C7"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#C14"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nasdem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#C18"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#C10"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#C4"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#C0"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PAN"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EQ"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LW"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAlliance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#C8"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isIdeologicalCharacteristicsOf"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#C13"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PPP"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#C17"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RW"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#C21"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#C5"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#C1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#C9"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PKB"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasCoalition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#C12"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ISL"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#C16"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Gerindra"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PL"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Organizations"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Golkar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PKS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#C20"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#AC"/>
+        <Class IRI="#C2"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#C1"/>
+        <Class IRI="#EG"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#C10"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIdeologicalCharacteristics"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#ISL"/>
+                <Class IRI="#RW"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#C11"/>
+        <Class IRI="#EQ"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#C11"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIdeologicalCharacteristics"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#EQ"/>
+                <Class IRI="#PS"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#C12"/>
+        <Class IRI="#SC"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#C12"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIdeologicalCharacteristics"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#PS"/>
+                <Class IRI="#SC"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#C13"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIdeologicalCharacteristics"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#EG"/>
+                <Class IRI="#SC"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#C14"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIdeologicalCharacteristics"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#EQ"/>
+                <Class IRI="#ISL"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#C15"/>
+        <Class IRI="#CW"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#C19"/>
+        <Class IRI="#PL"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#C20"/>
+        <Class IRI="#LW"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#C20"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIdeologicalCharacteristics"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#EQ"/>
+                <Class IRI="#SC"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#C3"/>
+        <Class IRI="#RW"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#C4"/>
+        <Class IRI="#ISL"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#C5"/>
+        <Class IRI="#PS"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#C6"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIdeologicalCharacteristics"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#AC"/>
+                <Class IRI="#EG"/>
+                <Class IRI="#RW"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#C7"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIdeologicalCharacteristics"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#AC"/>
+                <Class IRI="#PS"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#C8"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIdeologicalCharacteristics"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#PS"/>
+                <Class IRI="#RW"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#C9"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIdeologicalCharacteristics"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#AC"/>
+                <Class IRI="#ISL"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#EQ"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIdeologicalCharacteristics"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#EQ"/>
+                <Class IRI="#PS"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#LW"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIdeologicalCharacteristics"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#EQ"/>
+                <Class IRI="#SC"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#PoliticalParties"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Organizations"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasIdeologicalCharacteristics"/>
+                <Class IRI="#IdeologicalCharacteristics"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#SC"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIdeologicalCharacteristics"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#PS"/>
+                <Class IRI="#SC"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#AC"/>
+        <Class IRI="#C0"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AC"/>
+        <Class IRI="#C2"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AC"/>
+        <Class IRI="#IdeologicalCharacteristics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C0"/>
+        <Class IRI="#Concepts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C1"/>
+        <Class IRI="#C0"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C1"/>
+        <Class IRI="#EG"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C1"/>
+        <Class IRI="#IdeologicalCharacteristics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C10"/>
+        <Class IRI="#C3"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C10"/>
+        <Class IRI="#C4"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C10"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIdeologicalCharacteristics"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#ISL"/>
+                <Class IRI="#RW"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C11"/>
+        <Class IRI="#C5"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C12"/>
+        <Class IRI="#C5"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C13"/>
+        <Class IRI="#C1"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C13"/>
+        <Class IRI="#C12"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C13"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIdeologicalCharacteristics"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#EG"/>
+                <Class IRI="#SC"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C14"/>
+        <Class IRI="#C11"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C14"/>
+        <Class IRI="#C4"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C14"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIdeologicalCharacteristics"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#EQ"/>
+                <Class IRI="#ISL"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C15"/>
+        <Class IRI="#C13"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C15"/>
+        <Class IRI="#CW"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C16"/>
+        <Class IRI="#C13"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C16"/>
+        <ObjectUnionOf>
+            <Class IRI="#C15"/>
+            <Class IRI="#C16"/>
+        </ObjectUnionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C16"/>
+        <ObjectUnionOf>
+            <Class IRI="#C16"/>
+            <Class IRI="#C17"/>
+        </ObjectUnionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C16"/>
+        <ObjectUnionOf>
+            <Class IRI="#C16"/>
+            <Class IRI="#C18"/>
+        </ObjectUnionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C16"/>
+        <ObjectUnionOf>
+            <Class IRI="#C16"/>
+            <Class IRI="#C19"/>
+        </ObjectUnionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C17"/>
+        <Class IRI="#C6"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C17"/>
+        <ObjectUnionOf>
+            <Class IRI="#C16"/>
+            <Class IRI="#C17"/>
+        </ObjectUnionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C17"/>
+        <ObjectUnionOf>
+            <Class IRI="#C17"/>
+            <Class IRI="#C18"/>
+        </ObjectUnionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C17"/>
+        <ObjectUnionOf>
+            <Class IRI="#C17"/>
+            <Class IRI="#C19"/>
+        </ObjectUnionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C18"/>
+        <Class IRI="#C7"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C18"/>
+        <ObjectUnionOf>
+            <Class IRI="#C16"/>
+            <Class IRI="#C18"/>
+        </ObjectUnionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C18"/>
+        <ObjectUnionOf>
+            <Class IRI="#C17"/>
+            <Class IRI="#C18"/>
+        </ObjectUnionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C18"/>
+        <ObjectUnionOf>
+            <Class IRI="#C18"/>
+            <Class IRI="#C19"/>
+        </ObjectUnionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C19"/>
+        <Class IRI="#C8"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C19"/>
+        <Class IRI="#PL"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C2"/>
+        <Class IRI="#AC"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C2"/>
+        <Class IRI="#C0"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C2"/>
+        <Class IRI="#IdeologicalCharacteristics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C20"/>
+        <Class IRI="#C12"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C21"/>
+        <Class IRI="#C15"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C21"/>
+        <Class IRI="#C16"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C21"/>
+        <Class IRI="#C17"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C21"/>
+        <Class IRI="#C18"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C21"/>
+        <Class IRI="#C19"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C21"/>
+        <Class IRI="#C20"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C21"/>
+        <Class IRI="#CW"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C21"/>
+        <Class IRI="#Concepts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C21"/>
+        <Class IRI="#PL"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C21"/>
+        <ObjectUnionOf>
+            <Class IRI="#C16"/>
+            <Class IRI="#C17"/>
+        </ObjectUnionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C21"/>
+        <ObjectUnionOf>
+            <Class IRI="#C16"/>
+            <Class IRI="#C18"/>
+        </ObjectUnionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C21"/>
+        <ObjectUnionOf>
+            <Class IRI="#C17"/>
+            <Class IRI="#C18"/>
+        </ObjectUnionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C3"/>
+        <Class IRI="#C0"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C3"/>
+        <Class IRI="#IdeologicalCharacteristics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C3"/>
+        <Class IRI="#RW"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C4"/>
+        <Class IRI="#C0"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C4"/>
+        <Class IRI="#ISL"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C4"/>
+        <Class IRI="#IdeologicalCharacteristics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C5"/>
+        <Class IRI="#C0"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C5"/>
+        <Class IRI="#IdeologicalCharacteristics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C5"/>
+        <Class IRI="#PS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C6"/>
+        <Class IRI="#C1"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C6"/>
+        <Class IRI="#C2"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C6"/>
+        <Class IRI="#C3"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C6"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIdeologicalCharacteristics"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#AC"/>
+                <Class IRI="#EG"/>
+                <Class IRI="#RW"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C7"/>
+        <Class IRI="#C2"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C7"/>
+        <Class IRI="#C5"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C7"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIdeologicalCharacteristics"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#AC"/>
+                <Class IRI="#PS"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C8"/>
+        <Class IRI="#C3"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C8"/>
+        <Class IRI="#C5"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C8"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIdeologicalCharacteristics"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#PS"/>
+                <Class IRI="#RW"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C9"/>
+        <Class IRI="#C2"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C9"/>
+        <Class IRI="#C4"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C9"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIdeologicalCharacteristics"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#AC"/>
+                <Class IRI="#ISL"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CW"/>
+        <Class IRI="#C15"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CW"/>
+        <Class IRI="#IdeologicalCharacteristics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EG"/>
+        <Class IRI="#C0"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EG"/>
+        <Class IRI="#C1"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EG"/>
+        <Class IRI="#IdeologicalCharacteristics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EQ"/>
+        <Class IRI="#IdeologicalCharacteristics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISL"/>
+        <Class IRI="#C0"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISL"/>
+        <Class IRI="#C4"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISL"/>
+        <Class IRI="#IdeologicalCharacteristics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LW"/>
+        <Class IRI="#IdeologicalCharacteristics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PL"/>
+        <Class IRI="#C19"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PL"/>
+        <Class IRI="#IdeologicalCharacteristics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PS"/>
+        <Class IRI="#C0"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PS"/>
+        <Class IRI="#C5"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PS"/>
+        <Class IRI="#IdeologicalCharacteristics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PoliticalParties"/>
+        <Class IRI="#Organizations"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PoliticalParties"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Organizations"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasIdeologicalCharacteristics"/>
+                <Class IRI="#IdeologicalCharacteristics"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PoliticalParties"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAlliance"/>
+            <Class IRI="#PoliticalParties"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PoliticalParties"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCoalition"/>
+            <Class IRI="#PoliticalParties"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RW"/>
+        <Class IRI="#C0"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RW"/>
+        <Class IRI="#C3"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RW"/>
+        <Class IRI="#IdeologicalCharacteristics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SC"/>
+        <Class IRI="#IdeologicalCharacteristics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#Organizations"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasIdeologicalCharacteristics"/>
+                <Class IRI="#IdeologicalCharacteristics"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <Class IRI="#Organizations"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#Organizations"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasIdeologicalCharacteristics"/>
+                <Class IRI="#IdeologicalCharacteristics"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <Class IRI="#PoliticalParties"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#Organizations"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasIdeologicalCharacteristics"/>
+                <Class IRI="#IdeologicalCharacteristics"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAlliance"/>
+            <Class IRI="#PoliticalParties"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#Organizations"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasIdeologicalCharacteristics"/>
+                <Class IRI="#IdeologicalCharacteristics"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCoalition"/>
+            <Class IRI="#PoliticalParties"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectUnionOf>
+            <Class IRI="#C10"/>
+            <Class IRI="#C14"/>
+            <Class IRI="#C9"/>
+        </ObjectUnionOf>
+        <Class IRI="#C4"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectUnionOf>
+            <Class IRI="#C10"/>
+            <Class IRI="#C14"/>
+            <Class IRI="#C9"/>
+        </ObjectUnionOf>
+        <Class IRI="#ISL"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectUnionOf>
+            <Class IRI="#C10"/>
+            <Class IRI="#C14"/>
+            <Class IRI="#C9"/>
+        </ObjectUnionOf>
+        <Class IRI="#IdeologicalCharacteristics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectUnionOf>
+            <Class IRI="#C10"/>
+            <Class IRI="#C6"/>
+            <Class IRI="#C8"/>
+        </ObjectUnionOf>
+        <Class IRI="#C3"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectUnionOf>
+            <Class IRI="#C10"/>
+            <Class IRI="#C6"/>
+            <Class IRI="#C8"/>
+        </ObjectUnionOf>
+        <Class IRI="#IdeologicalCharacteristics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectUnionOf>
+            <Class IRI="#C10"/>
+            <Class IRI="#C6"/>
+            <Class IRI="#C8"/>
+        </ObjectUnionOf>
+        <Class IRI="#RW"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectUnionOf>
+            <Class IRI="#C11"/>
+            <Class IRI="#C12"/>
+            <Class IRI="#C7"/>
+            <Class IRI="#C8"/>
+        </ObjectUnionOf>
+        <Class IRI="#C5"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectUnionOf>
+            <Class IRI="#C11"/>
+            <Class IRI="#C12"/>
+            <Class IRI="#C7"/>
+            <Class IRI="#C8"/>
+        </ObjectUnionOf>
+        <Class IRI="#IdeologicalCharacteristics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectUnionOf>
+            <Class IRI="#C11"/>
+            <Class IRI="#C12"/>
+            <Class IRI="#C7"/>
+            <Class IRI="#C8"/>
+        </ObjectUnionOf>
+        <Class IRI="#PS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectUnionOf>
+            <Class IRI="#C13"/>
+            <Class IRI="#C20"/>
+        </ObjectUnionOf>
+        <Class IRI="#C12"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectUnionOf>
+            <Class IRI="#C13"/>
+            <Class IRI="#C6"/>
+        </ObjectUnionOf>
+        <Class IRI="#C1"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectUnionOf>
+            <Class IRI="#C13"/>
+            <Class IRI="#C6"/>
+        </ObjectUnionOf>
+        <Class IRI="#EG"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectUnionOf>
+            <Class IRI="#C13"/>
+            <Class IRI="#C6"/>
+        </ObjectUnionOf>
+        <Class IRI="#IdeologicalCharacteristics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectUnionOf>
+            <Class IRI="#C14"/>
+            <Class IRI="#C20"/>
+        </ObjectUnionOf>
+        <Class IRI="#C11"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectUnionOf>
+            <Class IRI="#C15"/>
+            <Class IRI="#C16"/>
+        </ObjectUnionOf>
+        <Class IRI="#C13"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectUnionOf>
+            <Class IRI="#C15"/>
+            <Class IRI="#C16"/>
+        </ObjectUnionOf>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIdeologicalCharacteristics"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#EG"/>
+                <Class IRI="#SC"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectUnionOf>
+            <Class IRI="#C16"/>
+            <Class IRI="#C17"/>
+        </ObjectUnionOf>
+        <Class IRI="#C6"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectUnionOf>
+            <Class IRI="#C16"/>
+            <Class IRI="#C17"/>
+        </ObjectUnionOf>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIdeologicalCharacteristics"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#AC"/>
+                <Class IRI="#EG"/>
+                <Class IRI="#RW"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectUnionOf>
+            <Class IRI="#C16"/>
+            <Class IRI="#C18"/>
+        </ObjectUnionOf>
+        <Class IRI="#C7"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectUnionOf>
+            <Class IRI="#C16"/>
+            <Class IRI="#C18"/>
+        </ObjectUnionOf>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIdeologicalCharacteristics"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#AC"/>
+                <Class IRI="#PS"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectUnionOf>
+            <Class IRI="#C16"/>
+            <Class IRI="#C19"/>
+        </ObjectUnionOf>
+        <Class IRI="#C8"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectUnionOf>
+            <Class IRI="#C16"/>
+            <Class IRI="#C19"/>
+        </ObjectUnionOf>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIdeologicalCharacteristics"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#PS"/>
+                <Class IRI="#RW"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectUnionOf>
+            <Class IRI="#C17"/>
+            <Class IRI="#C18"/>
+        </ObjectUnionOf>
+        <Class IRI="#C9"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectUnionOf>
+            <Class IRI="#C17"/>
+            <Class IRI="#C18"/>
+        </ObjectUnionOf>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIdeologicalCharacteristics"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#AC"/>
+                <Class IRI="#ISL"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectUnionOf>
+            <Class IRI="#C17"/>
+            <Class IRI="#C19"/>
+        </ObjectUnionOf>
+        <Class IRI="#C10"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectUnionOf>
+            <Class IRI="#C17"/>
+            <Class IRI="#C19"/>
+        </ObjectUnionOf>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIdeologicalCharacteristics"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#ISL"/>
+                <Class IRI="#RW"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectUnionOf>
+            <Class IRI="#C18"/>
+            <Class IRI="#C19"/>
+        </ObjectUnionOf>
+        <Class IRI="#C14"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectUnionOf>
+            <Class IRI="#C18"/>
+            <Class IRI="#C19"/>
+        </ObjectUnionOf>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIdeologicalCharacteristics"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#EQ"/>
+                <Class IRI="#ISL"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectUnionOf>
+            <Class IRI="#C6"/>
+            <Class IRI="#C7"/>
+            <Class IRI="#C9"/>
+        </ObjectUnionOf>
+        <Class IRI="#AC"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectUnionOf>
+            <Class IRI="#C6"/>
+            <Class IRI="#C7"/>
+            <Class IRI="#C9"/>
+        </ObjectUnionOf>
+        <Class IRI="#C2"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectUnionOf>
+            <Class IRI="#C6"/>
+            <Class IRI="#C7"/>
+            <Class IRI="#C9"/>
+        </ObjectUnionOf>
+        <Class IRI="#IdeologicalCharacteristics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIdeologicalCharacteristics"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#AC"/>
+                <Class IRI="#EG"/>
+                <Class IRI="#RW"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+        <Class IRI="#C6"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIdeologicalCharacteristics"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#AC"/>
+                <Class IRI="#ISL"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+        <Class IRI="#C9"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIdeologicalCharacteristics"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#AC"/>
+                <Class IRI="#PS"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+        <Class IRI="#C7"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIdeologicalCharacteristics"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#EG"/>
+                <Class IRI="#SC"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+        <Class IRI="#C13"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIdeologicalCharacteristics"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#EQ"/>
+                <Class IRI="#ISL"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+        <Class IRI="#C14"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIdeologicalCharacteristics"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#ISL"/>
+                <Class IRI="#RW"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+        <Class IRI="#C10"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIdeologicalCharacteristics"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#PS"/>
+                <Class IRI="#RW"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+        <Class IRI="#C8"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#C0"/>
+        <NamedIndividual IRI="#Demokrat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C1"/>
+        <NamedIndividual IRI="#Demokrat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C12"/>
+        <NamedIndividual IRI="#Demokrat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C13"/>
+        <NamedIndividual IRI="#Demokrat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C15"/>
+        <NamedIndividual IRI="#Demokrat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C5"/>
+        <NamedIndividual IRI="#Demokrat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CW"/>
+        <NamedIndividual IRI="#Demokrat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Concepts"/>
+        <NamedIndividual IRI="#Demokrat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EG"/>
+        <NamedIndividual IRI="#Demokrat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#IdeologicalCharacteristics"/>
+        <NamedIndividual IRI="#Demokrat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Organizations"/>
+        <NamedIndividual IRI="#Demokrat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PS"/>
+        <NamedIndividual IRI="#Demokrat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PoliticalParties"/>
+        <NamedIndividual IRI="#Demokrat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SC"/>
+        <NamedIndividual IRI="#Demokrat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#Organizations"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasIdeologicalCharacteristics"/>
+                <Class IRI="#IdeologicalCharacteristics"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#Demokrat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectUnionOf>
+            <Class IRI="#C11"/>
+            <Class IRI="#C12"/>
+            <Class IRI="#C7"/>
+            <Class IRI="#C8"/>
+        </ObjectUnionOf>
+        <NamedIndividual IRI="#Demokrat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectUnionOf>
+            <Class IRI="#C13"/>
+            <Class IRI="#C20"/>
+        </ObjectUnionOf>
+        <NamedIndividual IRI="#Demokrat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectUnionOf>
+            <Class IRI="#C13"/>
+            <Class IRI="#C6"/>
+        </ObjectUnionOf>
+        <NamedIndividual IRI="#Demokrat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectUnionOf>
+            <Class IRI="#C15"/>
+            <Class IRI="#C16"/>
+        </ObjectUnionOf>
+        <NamedIndividual IRI="#Demokrat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAlliance"/>
+            <Class IRI="#PoliticalParties"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#Demokrat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCoalition"/>
+            <Class IRI="#PoliticalParties"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#Demokrat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIdeologicalCharacteristics"/>
+            <Class IRI="#IdeologicalCharacteristics"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#Demokrat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIdeologicalCharacteristics"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#EG"/>
+                <Class IRI="#SC"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#Demokrat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIdeologicalCharacteristics"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#PS"/>
+                <Class IRI="#SC"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#Demokrat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AC"/>
+        <NamedIndividual IRI="#Gerindra"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C0"/>
+        <NamedIndividual IRI="#Gerindra"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C1"/>
+        <NamedIndividual IRI="#Gerindra"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C12"/>
+        <NamedIndividual IRI="#Gerindra"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C13"/>
+        <NamedIndividual IRI="#Gerindra"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C16"/>
+        <NamedIndividual IRI="#Gerindra"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C2"/>
+        <NamedIndividual IRI="#Gerindra"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C3"/>
+        <NamedIndividual IRI="#Gerindra"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C5"/>
+        <NamedIndividual IRI="#Gerindra"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C6"/>
+        <NamedIndividual IRI="#Gerindra"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C7"/>
+        <NamedIndividual IRI="#Gerindra"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C8"/>
+        <NamedIndividual IRI="#Gerindra"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Concepts"/>
+        <NamedIndividual IRI="#Gerindra"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EG"/>
+        <NamedIndividual IRI="#Gerindra"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#IdeologicalCharacteristics"/>
+        <NamedIndividual IRI="#Gerindra"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Organizations"/>
+        <NamedIndividual IRI="#Gerindra"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PS"/>
+        <NamedIndividual IRI="#Gerindra"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PoliticalParties"/>
+        <NamedIndividual IRI="#Gerindra"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RW"/>
+        <NamedIndividual IRI="#Gerindra"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SC"/>
+        <NamedIndividual IRI="#Gerindra"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#Organizations"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasIdeologicalCharacteristics"/>
+                <Class IRI="#IdeologicalCharacteristics"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#Gerindra"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectUnionOf>
+            <Class IRI="#C10"/>
+            <Class IRI="#C6"/>
+            <Class IRI="#C8"/>
+        </ObjectUnionOf>
+        <NamedIndividual IRI="#Gerindra"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectUnionOf>
+            <Class IRI="#C11"/>
+            <Class IRI="#C12"/>
+            <Class IRI="#C7"/>
+            <Class IRI="#C8"/>
+        </ObjectUnionOf>
+        <NamedIndividual IRI="#Gerindra"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectUnionOf>
+            <Class IRI="#C13"/>
+            <Class IRI="#C20"/>
+        </ObjectUnionOf>
+        <NamedIndividual IRI="#Gerindra"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectUnionOf>
+            <Class IRI="#C13"/>
+            <Class IRI="#C6"/>
+        </ObjectUnionOf>
+        <NamedIndividual IRI="#Gerindra"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectUnionOf>
+            <Class IRI="#C15"/>
+            <Class IRI="#C16"/>
+        </ObjectUnionOf>
+        <NamedIndividual IRI="#Gerindra"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectUnionOf>
+            <Class IRI="#C16"/>
+            <Class IRI="#C17"/>
+        </ObjectUnionOf>
+        <NamedIndividual IRI="#Gerindra"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectUnionOf>
+            <Class IRI="#C16"/>
+            <Class IRI="#C18"/>
+        </ObjectUnionOf>
+        <NamedIndividual IRI="#Gerindra"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectUnionOf>
+            <Class IRI="#C16"/>
+            <Class IRI="#C19"/>
+        </ObjectUnionOf>
+        <NamedIndividual IRI="#Gerindra"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectUnionOf>
+            <Class IRI="#C6"/>
+            <Class IRI="#C7"/>
+            <Class IRI="#C9"/>
+        </ObjectUnionOf>
+        <NamedIndividual IRI="#Gerindra"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAlliance"/>
+            <Class IRI="#PoliticalParties"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#Gerindra"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCoalition"/>
+            <Class IRI="#PoliticalParties"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#Gerindra"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIdeologicalCharacteristics"/>
+            <Class IRI="#IdeologicalCharacteristics"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#Gerindra"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIdeologicalCharacteristics"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#AC"/>
+                <Class IRI="#EG"/>
+                <Class IRI="#RW"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#Gerindra"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIdeologicalCharacteristics"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#AC"/>
+                <Class IRI="#PS"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#Gerindra"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIdeologicalCharacteristics"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#EG"/>
+                <Class IRI="#SC"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#Gerindra"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIdeologicalCharacteristics"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#PS"/>
+                <Class IRI="#RW"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#Gerindra"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIdeologicalCharacteristics"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#PS"/>
+                <Class IRI="#SC"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#Gerindra"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AC"/>
+        <NamedIndividual IRI="#Golkar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C0"/>
+        <NamedIndividual IRI="#Golkar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C1"/>
+        <NamedIndividual IRI="#Golkar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C12"/>
+        <NamedIndividual IRI="#Golkar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C13"/>
+        <NamedIndividual IRI="#Golkar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C16"/>
+        <NamedIndividual IRI="#Golkar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C2"/>
+        <NamedIndividual IRI="#Golkar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C3"/>
+        <NamedIndividual IRI="#Golkar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C5"/>
+        <NamedIndividual IRI="#Golkar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C6"/>
+        <NamedIndividual IRI="#Golkar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C7"/>
+        <NamedIndividual IRI="#Golkar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C8"/>
+        <NamedIndividual IRI="#Golkar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Concepts"/>
+        <NamedIndividual IRI="#Golkar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EG"/>
+        <NamedIndividual IRI="#Golkar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#IdeologicalCharacteristics"/>
+        <NamedIndividual IRI="#Golkar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Organizations"/>
+        <NamedIndividual IRI="#Golkar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PS"/>
+        <NamedIndividual IRI="#Golkar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PoliticalParties"/>
+        <NamedIndividual IRI="#Golkar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RW"/>
+        <NamedIndividual IRI="#Golkar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SC"/>
+        <NamedIndividual IRI="#Golkar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#Organizations"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasIdeologicalCharacteristics"/>
+                <Class IRI="#IdeologicalCharacteristics"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#Golkar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectUnionOf>
+            <Class IRI="#C10"/>
+            <Class IRI="#C6"/>
+            <Class IRI="#C8"/>
+        </ObjectUnionOf>
+        <NamedIndividual IRI="#Golkar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectUnionOf>
+            <Class IRI="#C11"/>
+            <Class IRI="#C12"/>
+            <Class IRI="#C7"/>
+            <Class IRI="#C8"/>
+        </ObjectUnionOf>
+        <NamedIndividual IRI="#Golkar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectUnionOf>
+            <Class IRI="#C13"/>
+            <Class IRI="#C20"/>
+        </ObjectUnionOf>
+        <NamedIndividual IRI="#Golkar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectUnionOf>
+            <Class IRI="#C13"/>
+            <Class IRI="#C6"/>
+        </ObjectUnionOf>
+        <NamedIndividual IRI="#Golkar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectUnionOf>
+            <Class IRI="#C15"/>
+            <Class IRI="#C16"/>
+        </ObjectUnionOf>
+        <NamedIndividual IRI="#Golkar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectUnionOf>
+            <Class IRI="#C16"/>
+            <Class IRI="#C17"/>
+        </ObjectUnionOf>
+        <NamedIndividual IRI="#Golkar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectUnionOf>
+            <Class IRI="#C16"/>
+            <Class IRI="#C18"/>
+        </ObjectUnionOf>
+        <NamedIndividual IRI="#Golkar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectUnionOf>
+            <Class IRI="#C16"/>
+            <Class IRI="#C19"/>
+        </ObjectUnionOf>
+        <NamedIndividual IRI="#Golkar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectUnionOf>
+            <Class IRI="#C6"/>
+            <Class IRI="#C7"/>
+            <Class IRI="#C9"/>
+        </ObjectUnionOf>
+        <NamedIndividual IRI="#Golkar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAlliance"/>
+            <Class IRI="#PoliticalParties"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#Golkar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCoalition"/>
+            <Class IRI="#PoliticalParties"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#Golkar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIdeologicalCharacteristics"/>
+            <Class IRI="#IdeologicalCharacteristics"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#Golkar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIdeologicalCharacteristics"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#AC"/>
+                <Class IRI="#EG"/>
+                <Class IRI="#RW"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#Golkar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIdeologicalCharacteristics"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#AC"/>
+                <Class IRI="#PS"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#Golkar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIdeologicalCharacteristics"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#EG"/>
+                <Class IRI="#SC"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#Golkar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIdeologicalCharacteristics"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#PS"/>
+                <Class IRI="#RW"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#Golkar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIdeologicalCharacteristics"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#PS"/>
+                <Class IRI="#SC"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#Golkar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C0"/>
+        <NamedIndividual IRI="#Nasdem"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C1"/>
+        <NamedIndividual IRI="#Nasdem"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C12"/>
+        <NamedIndividual IRI="#Nasdem"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C13"/>
+        <NamedIndividual IRI="#Nasdem"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C5"/>
+        <NamedIndividual IRI="#Nasdem"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Concepts"/>
+        <NamedIndividual IRI="#Nasdem"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EG"/>
+        <NamedIndividual IRI="#Nasdem"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#IdeologicalCharacteristics"/>
+        <NamedIndividual IRI="#Nasdem"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Organizations"/>
+        <NamedIndividual IRI="#Nasdem"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PS"/>
+        <NamedIndividual IRI="#Nasdem"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PoliticalParties"/>
+        <NamedIndividual IRI="#Nasdem"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SC"/>
+        <NamedIndividual IRI="#Nasdem"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#Organizations"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasIdeologicalCharacteristics"/>
+                <Class IRI="#IdeologicalCharacteristics"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#Nasdem"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectUnionOf>
+            <Class IRI="#C11"/>
+            <Class IRI="#C12"/>
+            <Class IRI="#C7"/>
+            <Class IRI="#C8"/>
+        </ObjectUnionOf>
+        <NamedIndividual IRI="#Nasdem"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectUnionOf>
+            <Class IRI="#C13"/>
+            <Class IRI="#C20"/>
+        </ObjectUnionOf>
+        <NamedIndividual IRI="#Nasdem"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectUnionOf>
+            <Class IRI="#C13"/>
+            <Class IRI="#C6"/>
+        </ObjectUnionOf>
+        <NamedIndividual IRI="#Nasdem"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAlliance"/>
+            <Class IRI="#PoliticalParties"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#Nasdem"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCoalition"/>
+            <Class IRI="#PoliticalParties"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#Nasdem"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIdeologicalCharacteristics"/>
+            <Class IRI="#IdeologicalCharacteristics"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#Nasdem"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIdeologicalCharacteristics"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#EG"/>
+                <Class IRI="#SC"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#Nasdem"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIdeologicalCharacteristics"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#PS"/>
+                <Class IRI="#SC"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#Nasdem"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AC"/>
+        <NamedIndividual IRI="#PAN"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C0"/>
+        <NamedIndividual IRI="#PAN"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C11"/>
+        <NamedIndividual IRI="#PAN"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C14"/>
+        <NamedIndividual IRI="#PAN"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C18"/>
+        <NamedIndividual IRI="#PAN"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C2"/>
+        <NamedIndividual IRI="#PAN"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C4"/>
+        <NamedIndividual IRI="#PAN"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C5"/>
+        <NamedIndividual IRI="#PAN"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C7"/>
+        <NamedIndividual IRI="#PAN"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C9"/>
+        <NamedIndividual IRI="#PAN"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Concepts"/>
+        <NamedIndividual IRI="#PAN"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EQ"/>
+        <NamedIndividual IRI="#PAN"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ISL"/>
+        <NamedIndividual IRI="#PAN"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#IdeologicalCharacteristics"/>
+        <NamedIndividual IRI="#PAN"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Organizations"/>
+        <NamedIndividual IRI="#PAN"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PS"/>
+        <NamedIndividual IRI="#PAN"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PoliticalParties"/>
+        <NamedIndividual IRI="#PAN"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#Organizations"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasIdeologicalCharacteristics"/>
+                <Class IRI="#IdeologicalCharacteristics"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#PAN"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectUnionOf>
+            <Class IRI="#C10"/>
+            <Class IRI="#C14"/>
+            <Class IRI="#C9"/>
+        </ObjectUnionOf>
+        <NamedIndividual IRI="#PAN"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectUnionOf>
+            <Class IRI="#C11"/>
+            <Class IRI="#C12"/>
+            <Class IRI="#C7"/>
+            <Class IRI="#C8"/>
+        </ObjectUnionOf>
+        <NamedIndividual IRI="#PAN"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectUnionOf>
+            <Class IRI="#C14"/>
+            <Class IRI="#C20"/>
+        </ObjectUnionOf>
+        <NamedIndividual IRI="#PAN"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectUnionOf>
+            <Class IRI="#C16"/>
+            <Class IRI="#C18"/>
+        </ObjectUnionOf>
+        <NamedIndividual IRI="#PAN"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectUnionOf>
+            <Class IRI="#C17"/>
+            <Class IRI="#C18"/>
+        </ObjectUnionOf>
+        <NamedIndividual IRI="#PAN"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectUnionOf>
+            <Class IRI="#C18"/>
+            <Class IRI="#C19"/>
+        </ObjectUnionOf>
+        <NamedIndividual IRI="#PAN"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectUnionOf>
+            <Class IRI="#C6"/>
+            <Class IRI="#C7"/>
+            <Class IRI="#C9"/>
+        </ObjectUnionOf>
+        <NamedIndividual IRI="#PAN"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAlliance"/>
+            <Class IRI="#PoliticalParties"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#PAN"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCoalition"/>
+            <Class IRI="#PoliticalParties"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#PAN"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIdeologicalCharacteristics"/>
+            <Class IRI="#IdeologicalCharacteristics"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#PAN"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIdeologicalCharacteristics"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#AC"/>
+                <Class IRI="#ISL"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#PAN"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIdeologicalCharacteristics"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#AC"/>
+                <Class IRI="#PS"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#PAN"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIdeologicalCharacteristics"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#EQ"/>
+                <Class IRI="#ISL"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#PAN"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIdeologicalCharacteristics"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#EQ"/>
+                <Class IRI="#PS"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#PAN"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C0"/>
+        <NamedIndividual IRI="#PDIP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C11"/>
+        <NamedIndividual IRI="#PDIP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C12"/>
+        <NamedIndividual IRI="#PDIP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C20"/>
+        <NamedIndividual IRI="#PDIP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C5"/>
+        <NamedIndividual IRI="#PDIP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Concepts"/>
+        <NamedIndividual IRI="#PDIP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EQ"/>
+        <NamedIndividual IRI="#PDIP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#IdeologicalCharacteristics"/>
+        <NamedIndividual IRI="#PDIP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#LW"/>
+        <NamedIndividual IRI="#PDIP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Organizations"/>
+        <NamedIndividual IRI="#PDIP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PS"/>
+        <NamedIndividual IRI="#PDIP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PoliticalParties"/>
+        <NamedIndividual IRI="#PDIP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SC"/>
+        <NamedIndividual IRI="#PDIP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#Organizations"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasIdeologicalCharacteristics"/>
+                <Class IRI="#IdeologicalCharacteristics"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#PDIP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectUnionOf>
+            <Class IRI="#C11"/>
+            <Class IRI="#C12"/>
+            <Class IRI="#C7"/>
+            <Class IRI="#C8"/>
+        </ObjectUnionOf>
+        <NamedIndividual IRI="#PDIP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectUnionOf>
+            <Class IRI="#C13"/>
+            <Class IRI="#C20"/>
+        </ObjectUnionOf>
+        <NamedIndividual IRI="#PDIP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectUnionOf>
+            <Class IRI="#C14"/>
+            <Class IRI="#C20"/>
+        </ObjectUnionOf>
+        <NamedIndividual IRI="#PDIP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAlliance"/>
+            <Class IRI="#PoliticalParties"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#PDIP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCoalition"/>
+            <Class IRI="#PoliticalParties"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#PDIP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIdeologicalCharacteristics"/>
+            <Class IRI="#IdeologicalCharacteristics"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#PDIP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIdeologicalCharacteristics"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#EQ"/>
+                <Class IRI="#PS"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#PDIP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIdeologicalCharacteristics"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#EQ"/>
+                <Class IRI="#SC"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#PDIP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIdeologicalCharacteristics"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#PS"/>
+                <Class IRI="#SC"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#PDIP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C0"/>
+        <NamedIndividual IRI="#PKB"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C10"/>
+        <NamedIndividual IRI="#PKB"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C11"/>
+        <NamedIndividual IRI="#PKB"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C14"/>
+        <NamedIndividual IRI="#PKB"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C19"/>
+        <NamedIndividual IRI="#PKB"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C3"/>
+        <NamedIndividual IRI="#PKB"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C4"/>
+        <NamedIndividual IRI="#PKB"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C5"/>
+        <NamedIndividual IRI="#PKB"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C8"/>
+        <NamedIndividual IRI="#PKB"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Concepts"/>
+        <NamedIndividual IRI="#PKB"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EQ"/>
+        <NamedIndividual IRI="#PKB"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ISL"/>
+        <NamedIndividual IRI="#PKB"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#IdeologicalCharacteristics"/>
+        <NamedIndividual IRI="#PKB"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Organizations"/>
+        <NamedIndividual IRI="#PKB"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PL"/>
+        <NamedIndividual IRI="#PKB"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PS"/>
+        <NamedIndividual IRI="#PKB"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PoliticalParties"/>
+        <NamedIndividual IRI="#PKB"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RW"/>
+        <NamedIndividual IRI="#PKB"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#Organizations"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasIdeologicalCharacteristics"/>
+                <Class IRI="#IdeologicalCharacteristics"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#PKB"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectUnionOf>
+            <Class IRI="#C10"/>
+            <Class IRI="#C14"/>
+            <Class IRI="#C9"/>
+        </ObjectUnionOf>
+        <NamedIndividual IRI="#PKB"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectUnionOf>
+            <Class IRI="#C10"/>
+            <Class IRI="#C6"/>
+            <Class IRI="#C8"/>
+        </ObjectUnionOf>
+        <NamedIndividual IRI="#PKB"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectUnionOf>
+            <Class IRI="#C11"/>
+            <Class IRI="#C12"/>
+            <Class IRI="#C7"/>
+            <Class IRI="#C8"/>
+        </ObjectUnionOf>
+        <NamedIndividual IRI="#PKB"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectUnionOf>
+            <Class IRI="#C14"/>
+            <Class IRI="#C20"/>
+        </ObjectUnionOf>
+        <NamedIndividual IRI="#PKB"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectUnionOf>
+            <Class IRI="#C16"/>
+            <Class IRI="#C19"/>
+        </ObjectUnionOf>
+        <NamedIndividual IRI="#PKB"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectUnionOf>
+            <Class IRI="#C17"/>
+            <Class IRI="#C19"/>
+        </ObjectUnionOf>
+        <NamedIndividual IRI="#PKB"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectUnionOf>
+            <Class IRI="#C18"/>
+            <Class IRI="#C19"/>
+        </ObjectUnionOf>
+        <NamedIndividual IRI="#PKB"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAlliance"/>
+            <Class IRI="#PoliticalParties"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#PKB"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCoalition"/>
+            <Class IRI="#PoliticalParties"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#PKB"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIdeologicalCharacteristics"/>
+            <Class IRI="#IdeologicalCharacteristics"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#PKB"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIdeologicalCharacteristics"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#EQ"/>
+                <Class IRI="#ISL"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#PKB"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIdeologicalCharacteristics"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#EQ"/>
+                <Class IRI="#PS"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#PKB"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIdeologicalCharacteristics"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#ISL"/>
+                <Class IRI="#RW"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#PKB"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIdeologicalCharacteristics"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#PS"/>
+                <Class IRI="#RW"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#PKB"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AC"/>
+        <NamedIndividual IRI="#PKS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C0"/>
+        <NamedIndividual IRI="#PKS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C1"/>
+        <NamedIndividual IRI="#PKS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C10"/>
+        <NamedIndividual IRI="#PKS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C17"/>
+        <NamedIndividual IRI="#PKS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C2"/>
+        <NamedIndividual IRI="#PKS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C3"/>
+        <NamedIndividual IRI="#PKS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C4"/>
+        <NamedIndividual IRI="#PKS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C6"/>
+        <NamedIndividual IRI="#PKS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C9"/>
+        <NamedIndividual IRI="#PKS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Concepts"/>
+        <NamedIndividual IRI="#PKS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EG"/>
+        <NamedIndividual IRI="#PKS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ISL"/>
+        <NamedIndividual IRI="#PKS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#IdeologicalCharacteristics"/>
+        <NamedIndividual IRI="#PKS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Organizations"/>
+        <NamedIndividual IRI="#PKS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PoliticalParties"/>
+        <NamedIndividual IRI="#PKS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RW"/>
+        <NamedIndividual IRI="#PKS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#Organizations"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasIdeologicalCharacteristics"/>
+                <Class IRI="#IdeologicalCharacteristics"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#PKS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectUnionOf>
+            <Class IRI="#C10"/>
+            <Class IRI="#C14"/>
+            <Class IRI="#C9"/>
+        </ObjectUnionOf>
+        <NamedIndividual IRI="#PKS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectUnionOf>
+            <Class IRI="#C10"/>
+            <Class IRI="#C6"/>
+            <Class IRI="#C8"/>
+        </ObjectUnionOf>
+        <NamedIndividual IRI="#PKS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectUnionOf>
+            <Class IRI="#C13"/>
+            <Class IRI="#C6"/>
+        </ObjectUnionOf>
+        <NamedIndividual IRI="#PKS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectUnionOf>
+            <Class IRI="#C16"/>
+            <Class IRI="#C17"/>
+        </ObjectUnionOf>
+        <NamedIndividual IRI="#PKS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectUnionOf>
+            <Class IRI="#C17"/>
+            <Class IRI="#C18"/>
+        </ObjectUnionOf>
+        <NamedIndividual IRI="#PKS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectUnionOf>
+            <Class IRI="#C17"/>
+            <Class IRI="#C19"/>
+        </ObjectUnionOf>
+        <NamedIndividual IRI="#PKS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectUnionOf>
+            <Class IRI="#C6"/>
+            <Class IRI="#C7"/>
+            <Class IRI="#C9"/>
+        </ObjectUnionOf>
+        <NamedIndividual IRI="#PKS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAlliance"/>
+            <Class IRI="#PoliticalParties"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#PKS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCoalition"/>
+            <Class IRI="#PoliticalParties"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#PKS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIdeologicalCharacteristics"/>
+            <Class IRI="#IdeologicalCharacteristics"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#PKS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIdeologicalCharacteristics"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#AC"/>
+                <Class IRI="#EG"/>
+                <Class IRI="#RW"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#PKS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIdeologicalCharacteristics"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#AC"/>
+                <Class IRI="#ISL"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#PKS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIdeologicalCharacteristics"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#ISL"/>
+                <Class IRI="#RW"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#PKS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C0"/>
+        <NamedIndividual IRI="#PPP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C11"/>
+        <NamedIndividual IRI="#PPP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C14"/>
+        <NamedIndividual IRI="#PPP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C4"/>
+        <NamedIndividual IRI="#PPP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C5"/>
+        <NamedIndividual IRI="#PPP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Concepts"/>
+        <NamedIndividual IRI="#PPP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EQ"/>
+        <NamedIndividual IRI="#PPP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ISL"/>
+        <NamedIndividual IRI="#PPP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#IdeologicalCharacteristics"/>
+        <NamedIndividual IRI="#PPP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Organizations"/>
+        <NamedIndividual IRI="#PPP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PS"/>
+        <NamedIndividual IRI="#PPP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PoliticalParties"/>
+        <NamedIndividual IRI="#PPP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#Organizations"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasIdeologicalCharacteristics"/>
+                <Class IRI="#IdeologicalCharacteristics"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#PPP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectUnionOf>
+            <Class IRI="#C10"/>
+            <Class IRI="#C14"/>
+            <Class IRI="#C9"/>
+        </ObjectUnionOf>
+        <NamedIndividual IRI="#PPP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectUnionOf>
+            <Class IRI="#C11"/>
+            <Class IRI="#C12"/>
+            <Class IRI="#C7"/>
+            <Class IRI="#C8"/>
+        </ObjectUnionOf>
+        <NamedIndividual IRI="#PPP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectUnionOf>
+            <Class IRI="#C14"/>
+            <Class IRI="#C20"/>
+        </ObjectUnionOf>
+        <NamedIndividual IRI="#PPP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAlliance"/>
+            <Class IRI="#PoliticalParties"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#PPP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCoalition"/>
+            <Class IRI="#PoliticalParties"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#PPP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIdeologicalCharacteristics"/>
+            <Class IRI="#IdeologicalCharacteristics"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#PPP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIdeologicalCharacteristics"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#EQ"/>
+                <Class IRI="#ISL"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#PPP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIdeologicalCharacteristics"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#EQ"/>
+                <Class IRI="#PS"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#PPP"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAlliance"/>
+        <NamedIndividual IRI="#Demokrat"/>
+        <NamedIndividual IRI="#Demokrat"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAlliance"/>
+        <NamedIndividual IRI="#Demokrat"/>
+        <NamedIndividual IRI="#Gerindra"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAlliance"/>
+        <NamedIndividual IRI="#Gerindra"/>
+        <NamedIndividual IRI="#Demokrat"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAlliance"/>
+        <NamedIndividual IRI="#Gerindra"/>
+        <NamedIndividual IRI="#Gerindra"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCoalition"/>
+        <NamedIndividual IRI="#Gerindra"/>
+        <NamedIndividual IRI="#PAN"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCoalition"/>
+        <NamedIndividual IRI="#Gerindra"/>
+        <NamedIndividual IRI="#PKS"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAlliance"/>
+        <NamedIndividual IRI="#Golkar"/>
+        <NamedIndividual IRI="#Golkar"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAlliance"/>
+        <NamedIndividual IRI="#Golkar"/>
+        <NamedIndividual IRI="#Nasdem"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAlliance"/>
+        <NamedIndividual IRI="#Golkar"/>
+        <NamedIndividual IRI="#PDIP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAlliance"/>
+        <NamedIndividual IRI="#Golkar"/>
+        <NamedIndividual IRI="#PKB"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAlliance"/>
+        <NamedIndividual IRI="#Golkar"/>
+        <NamedIndividual IRI="#PPP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCoalition"/>
+        <NamedIndividual IRI="#Golkar"/>
+        <NamedIndividual IRI="#PDIP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAlliance"/>
+        <NamedIndividual IRI="#Nasdem"/>
+        <NamedIndividual IRI="#Golkar"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAlliance"/>
+        <NamedIndividual IRI="#Nasdem"/>
+        <NamedIndividual IRI="#Nasdem"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAlliance"/>
+        <NamedIndividual IRI="#Nasdem"/>
+        <NamedIndividual IRI="#PDIP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAlliance"/>
+        <NamedIndividual IRI="#Nasdem"/>
+        <NamedIndividual IRI="#PKB"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAlliance"/>
+        <NamedIndividual IRI="#Nasdem"/>
+        <NamedIndividual IRI="#PPP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCoalition"/>
+        <NamedIndividual IRI="#Nasdem"/>
+        <NamedIndividual IRI="#PDIP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCoalition"/>
+        <NamedIndividual IRI="#PAN"/>
+        <NamedIndividual IRI="#Gerindra"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAlliance"/>
+        <NamedIndividual IRI="#PDIP"/>
+        <NamedIndividual IRI="#Golkar"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAlliance"/>
+        <NamedIndividual IRI="#PDIP"/>
+        <NamedIndividual IRI="#Nasdem"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAlliance"/>
+        <NamedIndividual IRI="#PDIP"/>
+        <NamedIndividual IRI="#PDIP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAlliance"/>
+        <NamedIndividual IRI="#PDIP"/>
+        <NamedIndividual IRI="#PKB"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAlliance"/>
+        <NamedIndividual IRI="#PDIP"/>
+        <NamedIndividual IRI="#PPP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCoalition"/>
+        <NamedIndividual IRI="#PDIP"/>
+        <NamedIndividual IRI="#Golkar"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCoalition"/>
+        <NamedIndividual IRI="#PDIP"/>
+        <NamedIndividual IRI="#Nasdem"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCoalition"/>
+        <NamedIndividual IRI="#PDIP"/>
+        <NamedIndividual IRI="#PKB"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCoalition"/>
+        <NamedIndividual IRI="#PDIP"/>
+        <NamedIndividual IRI="#PPP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAlliance"/>
+        <NamedIndividual IRI="#PKB"/>
+        <NamedIndividual IRI="#Golkar"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAlliance"/>
+        <NamedIndividual IRI="#PKB"/>
+        <NamedIndividual IRI="#Nasdem"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAlliance"/>
+        <NamedIndividual IRI="#PKB"/>
+        <NamedIndividual IRI="#PDIP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAlliance"/>
+        <NamedIndividual IRI="#PKB"/>
+        <NamedIndividual IRI="#PKB"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAlliance"/>
+        <NamedIndividual IRI="#PKB"/>
+        <NamedIndividual IRI="#PPP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCoalition"/>
+        <NamedIndividual IRI="#PKB"/>
+        <NamedIndividual IRI="#PDIP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCoalition"/>
+        <NamedIndividual IRI="#PKS"/>
+        <NamedIndividual IRI="#Gerindra"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAlliance"/>
+        <NamedIndividual IRI="#PPP"/>
+        <NamedIndividual IRI="#Golkar"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAlliance"/>
+        <NamedIndividual IRI="#PPP"/>
+        <NamedIndividual IRI="#Nasdem"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAlliance"/>
+        <NamedIndividual IRI="#PPP"/>
+        <NamedIndividual IRI="#PDIP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAlliance"/>
+        <NamedIndividual IRI="#PPP"/>
+        <NamedIndividual IRI="#PKB"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAlliance"/>
+        <NamedIndividual IRI="#PPP"/>
+        <NamedIndividual IRI="#PPP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCoalition"/>
+        <NamedIndividual IRI="#PPP"/>
+        <NamedIndividual IRI="#PDIP"/>
+    </ObjectPropertyAssertion>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasIdeologicalCharacteristics"/>
+        <ObjectProperty IRI="#isIdeologicalCharacteristicsOf"/>
+    </InverseObjectProperties>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#hasAlliance"/>
+    </SymmetricObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#hasCoalition"/>
+    </SymmetricObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SymmetricObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#hasAlliance"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </TransitiveObjectProperty>
+    <ReflexiveObjectProperty>
+        <ObjectProperty IRI="#hasAlliance"/>
+    </ReflexiveObjectProperty>
+    <ReflexiveObjectProperty>
+        <ObjectProperty IRI="#hasCoalition"/>
+    </ReflexiveObjectProperty>
+    <ReflexiveObjectProperty>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </ReflexiveObjectProperty>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
